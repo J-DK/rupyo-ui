@@ -1,1 +1,42 @@
 @import "./custom-theme";
+
+:root {
+
+  /* Colors: */
+  --unnamed-color-46e100: #46E100;
+  --inactive: #E94472;
+  --pending: #F4B11B;
+  --bg-green: #F7FAF9;
+  --unnamed-color-66eead: #66EEAD;
+  --unnamed-color-68cffd: #68CFFD;
+  --unnamed-color-ff818e: #FF818E;
+  --unnamed-color-dce4e8: #DCE4E8;
+  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-0f0f0f: #0F0F0F;
+  --unnamed-color-0da4e8: #0DA4E8;
+  --unnamed-color-1cc975: #1CC975;
+
+  /* Font/text values */
+  --unnamed-font-family-poppins: Poppins;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-300: 300px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-24: 24px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-poppins);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-300);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1a1a1a);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(./assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
