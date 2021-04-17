@@ -1,0 +1,44 @@
+.attendance-root {
+  box-shadow: 0 5px 15px #4F52500D;
+  border-radius: 10px;
+  //opacity: 0.49;
+  width: 100%;
+  padding: 25px;
+  font-family: "Poppins-Light", Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  font-size: 12px;
+
+  .attendance-today {
+    display: flex;
+    justify-content: space-between;
+
+    .presents {
+      color: #1CC975;
+    }
+
+    .absents {
+      color: #E94472;
+    }
+
+    .leaves {
+      color: #F4B11B;
+    }
+
+    .attendance-text {
+      opacity: 0.49;
+    }
+  }
+
+  .att-label {
+    text-align: end;
+  }
+
+  .att-count {
+    font-size: 24px;
+    font-family: "Poppins-Bold", Arial, Helvetica, sans-serif;
+  }
+
+  .today-label {
+    font-family: "Poppins-SemiBold", Arial, Helvetica, sans-serif;
+  }
+}
