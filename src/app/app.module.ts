@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MaterialModule} from "./material.module";
+import { MaterialModule } from "./material.module";
+import {DashboardModule} from "./components/dashboard/dashboard.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {MaterialModule} from "./material.module";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
