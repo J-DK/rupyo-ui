@@ -38,5 +38,5 @@ $rupyo-ui-theme: mat-light-theme((
 html, body { height: 100%; }
 body {
   margin: 0;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 20px; }
+  font-family: "Poppins", Arial, Helvetica, sans-serif !important;
+}
