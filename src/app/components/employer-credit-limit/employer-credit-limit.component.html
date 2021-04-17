@@ -1,0 +1,57 @@
+<div class="credit-limit">
+  <div class="credit-root">
+    <div class="credit-limit-text">
+      <span>Employer Credit Limit</span> &nbsp; &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+        <defs>
+          <style>
+            .info-circle {
+              fill: #0f0f0f;
+              stroke: #000;
+            }
+
+            .info-circle, .info-line {
+              stroke-linecap: round;
+              stroke-linejoin: round;
+            }
+
+            .info-line {
+              fill: none;
+              stroke: #fff;
+            }
+          </style>
+        </defs>
+        <g class="a" transform="translate(-1.5 -1.5)">
+          <circle class="info-circle" cx="5" cy="5" r="5" transform="translate(2 2)"/>
+          <line class="info-line" y1="2" transform="translate(7 7)"/>
+          <line class="info-line" transform="translate(7 5)"/>
+        </g>
+      </svg>
+    </div>
+    <div>
+      ₹{{totalCreditLimit | number}} Total
+    </div>
+  </div>
+  <br/>
+  <div class="credit-percentage">
+    <div class="consumed" [style.width.%]="widthOfConsumed">
+    &nbsp;
+    </div>
+    <div class="remaining" [style.width.%]="100 - widthOfConsumed">
+    &nbsp;
+    </div>
+  </div>
+  <br/>
+  <div class="credit-share">
+    <div class="consumed-amt">
+      <span class="amount">₹{{consumed | number}}</span> <br/>
+      <span class="share">Consumed</span>
+    </div>
+    <div class="remaining-amt">
+      <span class="amount">₹{{remaining | number}}</span>
+      <br/>
+      <span class="share">Remaining</span>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,76 @@
+.credit-limit {
+  box-shadow: 0 5px 15px #4F52500D;
+  border-radius: 10px;
+  opacity: 1;
+  width: 100%;
+  padding: 25px;
+  font-family: "Poppins-Light", Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  font-size: 12px;
+
+
+  .credit-root {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.49;
+
+
+    .credit-limit-text {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .credit-percentage {
+    background: #EAEFF1 0 0 no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+
+    .consumed {
+      background: transparent linear-gradient(270deg, #FF688C 0%, #E7406F 100%) 0 0 no-repeat padding-box;
+      border-radius: 5px;
+      opacity: 1;
+    }
+
+    .remaining {
+      background: #1CC975 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      opacity: 1;
+      margin-left: 3px;
+    }
+  }
+
+  .credit-share {
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+
+    .consumed-amt {
+      text-align: left;
+      .amount {
+        color: #e94371;
+        font-family: Poppins-SemiBold, Poppins, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+
+    }
+
+    .remaining-amt {
+      text-align: right;
+      .amount {
+        color: #1CC975;
+        font-family: Poppins-SemiBold, Poppins, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+    }
+
+    .share {
+      color: #0f0f0f;
+      font-family: Poppins-Light, Poppins, Arial, Helvetica, sans-serif;
+      font-weight: 300;
+    }
+  }
+}
